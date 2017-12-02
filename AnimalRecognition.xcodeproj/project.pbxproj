@@ -15,6 +15,7 @@
 		FCC1B0011FD31FBE009EF126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC1AFFF1FD31FBE009EF126 /* LaunchScreen.storyboard */; };
 		FCC1B00C1FD31FBE009EF126 /* AnimalRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC1B00B1FD31FBE009EF126 /* AnimalRecognitionTests.swift */; };
 		FCC1B0171FD31FBE009EF126 /* AnimalRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC1B0161FD31FBE009EF126 /* AnimalRecognitionUITests.swift */; };
+		FCC1B0251FD33210009EF126 /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC1B0241FD33210009EF126 /* PhotoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FCC1B0121FD31FBE009EF126 /* AnimalRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC1B0161FD31FBE009EF126 /* AnimalRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRecognitionUITests.swift; sourceTree = "<group>"; };
 		FCC1B0181FD31FBE009EF126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC1B0241FD33210009EF126 /* PhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				FCC1AFF31FD31FBE009EF126 /* AppDelegate.swift */,
 				FCC1AFF51FD31FBE009EF126 /* ViewController.swift */,
+				FCC1B0241FD33210009EF126 /* PhotoVC.swift */,
 				FCC1AFF71FD31FBE009EF126 /* Main.storyboard */,
 				FCC1AFFD1FD31FBE009EF126 /* Assets.xcassets */,
 				FCC1AFFF1FD31FBE009EF126 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				FCC1AFFC1FD31FBE009EF126 /* AnimalRecognition.xcdatamodeld in Sources */,
 				FCC1AFF61FD31FBE009EF126 /* ViewController.swift in Sources */,
 				FCC1AFF41FD31FBE009EF126 /* AppDelegate.swift in Sources */,
+				FCC1B0251FD33210009EF126 /* PhotoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
